@@ -1,12 +1,10 @@
 ## MongoDB Spring REST Service - Example 1
-Author: Niclas Tegnér
+Author:Ravi Jagannathan
 
 This is an example of a REST service that loads and stores json data using Mongo DB. 
 
 ### Preparations
-Mongo DB must be installed on your local machine. Please [download Mongo DB][1]
-and follow [the install instructions][2]. 
-
+Mongo DB must be installed on your local machine. 
 ### Feature highlights
 - Rest service with CRUD support.
 - Mongo DB 2.4.9 for loading and storing json data.
