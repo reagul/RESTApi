@@ -21,7 +21,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.emc.ETAPPS.REST.config.RootApplicationConfig</param-value>
+        <param-value>com.ravijag.restexample.REST.config.RootApplicationConfig</param-value>
     </context-param>    
     
     <listener>
