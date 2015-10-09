@@ -25,11 +25,10 @@ First of all, you must start Mongo DB on your local machine:
 Use the REST service to create some support tickets:
 
 ```
-curl -i -X POST -H "Content-Type: application/json" -d '{"subject":"We are out of coffee!!!","description":"Please help now!","createdDateTime":"2014-01-21T09:03:28","priority":9999}' http://localhost:8084/mongodb-spring-example1/supportticket
-curl -i -X POST -H "Content-Type: application/json" -d '{"subject":"BROKEN KEYBOARD","description":"CAPSLOCK IS ALWAYS ON","createdDateTime":"2014-01-21T10:37:49","priority":2}' http://localhost:8084/mongodb-spring-example1/supportticket
+curl -i -X POST -H "Content-Type: application/json" -d '{"subject":"We are out of coffee!!!","description":"Please help now!","createdDateTime":"2014-01-21T09:03:28","priority":9999}' http://localhost:8084/RESTApi/
+curl -i -X POST -H "Content-Type: application/json" -d '{"subject":"BROKEN KEYBOARD","description":"CAPSLOCK IS ALWAYS ON","createdDateTime":"2014-01-21T10:37:49","priority":2}' http://localhost:8084/RESTApi
 ```
-Please pay attention to the responses because the url to get the created support tickets
-will be found in the location part, like this:
+RESPONSE
 ```
 HTTP/1.1 201 Created
 Server: Apache-Coyote/1.1
