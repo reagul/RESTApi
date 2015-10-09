@@ -12,7 +12,7 @@ Mongo DB must be installed on your local machine.
 - Jersey 1.18
 - Spring context is configured by Java configuration (instead of xml configuration)
 
-### Using REST API via  Mongo DB 
+### Using REST API using  Mongo DB datastore
 
 First of all, you must start Mongo DB on your local machine:
 
