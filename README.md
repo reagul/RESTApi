@@ -17,10 +17,19 @@ Mongo DB must be installed on your local machine.
 First of all, you must start Mongo DB on your local machine:
 
 ```
+On Windows 
+
 > cd <mongodb_home_dir>
 > cd bin
 > mongod.exe
 ```
+On Linux 
+
+> cd <mongodb dir>
+> ./bin/mongod
+
+```
+
 
 Use the REST service to create some support tickets:
 
