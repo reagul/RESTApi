@@ -23,6 +23,7 @@ On Windows
 > cd bin
 > mongod.exe
 ```
+```
 On Linux 
 
 > cd <mongodb dir>
