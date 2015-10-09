@@ -44,17 +44,3 @@ Get a newly created support ticket (url from the "201 Created" response):
 curl -i -H "Accept: application/json" http://localhost:8084/mongodb-spring-example1/supportticket/52de563a151caedae9c33a74
 ```
 
-Update the priority of a support ticket:
-
-```
-curl -i -X PUT http://localhost:8084/mongodb-spring-example1/supportticket/52de563a151caedae9c33a74/priority/5
-```
-
-Delete a support ticket:
-
-```
-curl -i -X DELETE http://localhost:8084/mongodb-spring-example1/supportticket/52de563a151caedae9c33a74
-```
-
-[1]: http://www.mongodb.org/downloads/
-[2]: http://docs.mongodb.org/manual/installation/
