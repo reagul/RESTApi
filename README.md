@@ -12,7 +12,7 @@ Mongo DB must be installed on your local machine.
 - Jersey 1.18
 - Spring context is configured by Java configuration (instead of xml configuration)
 
-### Testing Mongo DB via the REST service
+### Using REST API via  Mongo DB 
 
 First of all, you must start Mongo DB on your local machine:
 
@@ -26,12 +26,12 @@ On Windows
 On Linux 
 
 > cd <mongodb dir>
-> ./bin/mongod
+> /bin/mongod
 
 ```
 
 
-Use the REST service to create some support tickets:
+Use the REST service to as a Template to create API . 
 
 ```
 curl -i -X POST -H "Content-Type: application/json" -d '{"subject":"We are out of coffee!!!","description":"Please help now!","createdDateTime":"2014-01-21T09:03:28","priority":9999}' http://localhost:8084/RESTApi/
